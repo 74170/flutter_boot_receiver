@@ -66,6 +66,9 @@ Your `AndroidManifest.xml` should now have a structure similar to this:
     android:installLocation="internalOnly"
     >
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <!-- For api versions 25 an below-->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
     <!-- Other permissions... -->
     <application>
         <!-- Other activities, services etc... -->
