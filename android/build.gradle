@@ -23,6 +23,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.flux.flutter_boot_receiver'
     compileSdkVersion 31
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
